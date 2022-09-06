@@ -128,16 +128,16 @@ print("Thank you. To exit, enter -1 as your bet.")
 
 # entry into game mode
 while game_is_running:
-    bet = input("Please enter your bet: $")
+    if players_pot == 0:
+        game_is_running = False
+        print("Thank you for playing. Sorry you lost it all!")
+        break
+    bet = input("You have $" + str(players_pot) + ". Please enter your bet: $")
     if bet == "-1":
         game_is_running = False
         print("Thank you for playing. You finished with $" + str(players_pot))
         if players_pot > int(buy_in):
             print("Congrats on winning $" + str(players_pot - buy_in) + "!")
-        break
-    elif players_pot == 0:
-        game_is_running = False
-        print("Thank you for playing. Sorry you lost it all!")
         break
     elif bet.isnumeric():
         if int(bet) > players_pot:
@@ -150,6 +150,10 @@ while game_is_running:
                 players_pot += int(bet)
             elif output == "Loss":
                 players_pot -= int(bet)
+                if players_pot == 0:
+                    game_is_running = False
+                    print("Thank you for playing. Sorry you lost it all!")
+                    break
             print(output)
     else:
         continue
