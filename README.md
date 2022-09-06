@@ -1,3 +1,3 @@
-# software_examples
+# code_examples
 
-This repository is a collection of my code
+This repository is a collection of my code relating to data science.
