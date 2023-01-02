@@ -1,3 +1,3 @@
 This is a personal project I created to look further into a really new
-and interesting dataset. All the graphs are included both in the report 
-and as individual files.
+and interesting dataset. The report is included as a pdf and the saved
+graphs have been omited for brevity.
