@@ -1,0 +1,11 @@
+fixed_dict = {"Light Snow": 0, "Heavy Snow and Blustery": 0, "Heavy Snow": 0, "Snow": 0, "Wintry Mix and Patchy Fog": 0, "Winter Weather Advisory": 0, "Winter Storm Warning": 0, "Wintry Mix": 0, "Snow Showers": 0, "Snow and Breezy": 0,
+
+"Light Snow Fog/Mist and Breezy": 1, "Light Snow Fog/Mist": 1, "Fog/Mist": 1, "Snow Fog/Mist": 1, "Freezing Fog": 1, "Snow and Patchy Fog": 1, "Fog": 1, "Patchy Fog": 1,
+
+"Rain/Snow": 2, "Rain": 2, "Showers and Breezy": 2, "Drizzle/Snow": 2, "Rain and Breezy": 2, "Patchy Freezing Drizzle and Patchy Fog": 2, "Patchy Freezing Drizzle": 2, "Showers": 2, "Drizzle": 2,
+
+"Blustery. Rain/Snow": 3, "Snow and Blustery": 3, "Partly Cloudy and Blustery": 3, "Red Flag Warning": 3, "Wind Chill Advisory": 3, "Mostly Sunny and Windy": 3, "A Few Clouds and Windy": 3, "Sunny and Windy": 3,
+
+"Overcast": 4, "Partly Cloudy": 4, "Mostly Cloudy": 4, "Overcast and Breezy": 4, "Mostly Cloudy and Breezy": 4, "Increasing Clouds": 4, "Cloudy": 4, "Partly Cloudy and Breezy": 4,
+
+"Gradual Clearing and Breezy": 5, "A Few Clouds": 5, "Fair": 5, "Decreasing Clouds": 5, "Decreasing Clouds and Breezy": 5, "Mostly Clear and Breezy": 5, "Partly Sunny": 5, "Sunny": 5,  "Mostly Sunny": 5, "Sunny and Breezy": 5, "Mostly Clear": 5, "Clear": 5, "Mostly Sunny and Breezy": 5, "A Few Clouds and Breezy": 5, "Becoming Sunny": 5, "Partly Sunny and Breezy": 5, "Breezy. Sunny": 5}
